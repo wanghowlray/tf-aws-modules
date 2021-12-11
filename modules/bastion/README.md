@@ -1,0 +1,1 @@
+Create a bastion ec2. Support spot request.

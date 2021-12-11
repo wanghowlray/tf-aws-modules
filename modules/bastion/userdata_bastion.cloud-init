@@ -1,0 +1,10 @@
+#cloud-config
+users:
+  - name: raywang
+    gecos: Ray Wang
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHW/7tGU9IrTIA2mi4kYI7W5+0a7VgOClJpViv05EBeo ray
+
+
